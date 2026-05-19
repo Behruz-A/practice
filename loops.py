@@ -4,6 +4,13 @@
 (3) while
 '''
 
+#  moxiyati
+# 1. break — siklni to‘xtatadi ------ kerakli narsani topganda
+
+# 2. For -- oldindan nech marta loop bolishini bilganimizda
+# 3. while di biz oldindan nech marta takrorlanishini bilmaganimzda ishlatamiz
+
+
 print("====  for operator ====")
 
 #  Iterable objects > string dict tuple list range map filter
@@ -43,7 +50,6 @@ for x in range(1, 20, 5):
 #  savol nega buyerda start 1 dan bolebdi range da nolda dan boshlash kerak ediku?
 
 
-# while di biz oldindan nech marta takrorlanishini bilmaganimzda ishlatamiz
 print("==== while ===")
 numb = 40
 while numb > 0:

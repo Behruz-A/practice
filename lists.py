@@ -5,7 +5,9 @@
 (4) enumerate, map and filter
 '''
 
-
+# moxiyati:
+# lambda -- Python’da lambda — qisqa function yozish usuli. Ko‘pincha boshqa function ichida ishlatilad
+#  enumerate enumerate() — element bilan birga uning indexini ham olish uchun ishlatiladi. vazifasi:index + value ni birga olish.
 print("===== Working with lists =====")
 #  Java/PHP/NodeJS array > Python list
 

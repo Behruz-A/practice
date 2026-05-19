@@ -4,6 +4,14 @@
  (3) zip
  '''
 
+# moxiyati
+# 1 Tuple --- Python’da tuple — bir nechta qiymatlarni bitta joyda saqlaydigan collection. va qiymati ozgarmedigan holatlarda ishlatamiz
+#  list ni qiymati ozgaradigan holatlarda
+# *args -- Oldindan nechta argument kelishini bilmasak --- U tuple bo‘lib keladi.
+# **kwargs → key=value argumentlarni yig‘adi. --- U dictionary bo‘lib keladi.
+# zip Python’dagi zip() — bir nechta listlarni elementma-element birlashtiradi. Bir-biriga bog‘liq listlarni birga ishlatish uchun.
+
+
 print("==== What is tuple: typle vs list ==== ")
 #  Java/PHP/NodeJS array > Python list, array > special holatlarda ishlatamiz pyton dagi arrayni
 
