@@ -22,7 +22,7 @@ print(numbers is list_numbers)
 print(id(numbers), id(list_numbers))
 
 print("=======")  # map, lambda bn qilgan ishn comp b version bn easy qildik
-people = [("Ramos", 40), ("Vandek", 37), ("Khusanov", 22)]
+people = [("Ramos", 40), ("Pepe", 37), ("Khusanov", 22)]
 list_people = [person[0] for person in people]  # b version
 
 
@@ -40,3 +40,24 @@ cars = [
 
 list_cars = [car[0] for car in cars if car[1] > 80]  # c version
 print("list_cars:", list_cars)
+
+
+print("==== set and dictionary comp. ===")
+
+numbs = [2, 4, 6, 40]
+set_numbs = {*numbs}
+print("set_numbs:", set_numbs)
+
+
+dict_people = {person[0]: person[1] for person in people}  # b version
+print("dict_people:", dict_people)
+
+
+dict_people2 = {person[0]: person[1]
+                for person in people if person[1] > 30}  # c version
+print("dict_people:", dict_people2)
+
+
+# comphrehension qay usulda ishlatsak ham shu 3 ta version bn qilamiz
+
+# generic type lar bn katta hajmdagi malumotlar toplami ishlaganda foydalansak bolarkan
