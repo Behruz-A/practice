@@ -53,3 +53,5 @@ with Image.open("material/Icons_game.png") as img_obj:
     resized_img = img_obj.resize((200, 200))
     resized_img.show()
     resized_img.save("material/sample.png")
+
+print("==== Package Manager & External Package  ====")

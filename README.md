@@ -35,3 +35,19 @@ git pull origin master
 - Comprehension
 - Debugging
 - ...
+
+## pip commands:
+'''
+windows pip | macOS pip3
+
+pip list
+pip install pillow
+pip unistall pillow
+pip show pillow
+pip freeze > requirement.txt
+
+
+
+
+'''
+
