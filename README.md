@@ -1,53 +1,38 @@
-# PRACTICE PROJECT
+# Practice Project
 
-Learning GIT Python Foundation
+A personal practice repository for learning Git, GitHub, and Python fundamentals.
 
-## GIT COMMANDS:
-```
-git config -- global user.name
-git config --global user.name "ryan"
+## Git Commands
+
+```bash
+# Configure Git username and email
+git config --global user.name "Behruz"
 git config --global user.email "behruzanorboev1@gmail.com"
+
+# Initialize a Git repository
 git init
 
+# Check repository status
 git status
+
+# Stage all changes
 git add .
-git commit -m "feat: Initial Setup"
 
-git remote add origin https://github_address
+# Create a commit
+git commit -m "feat: initial setup"
+
+# Add a remote repository
+git remote add origin https://github.com/username/repository.git
+
+# Push changes
 git push origin master
+
+# Pull changes
 git pull origin master
+
+
+
+
+'''
+
 ```
-
-
-## Python Foundation:
-
-- Primitive Variables
-- Function
-- Object
-- Class about
-- Class deep dive > Encapsulation
-- Class deep dive > Inheritence Polimorphism
-- Operation & Conditions
-- Loops
-- tuple
-- list
-- Array
-- Comprehension
-- Debugging
-- ...
-
-## pip commands:
-'''
-windows pip | macOS pip3
-
-pip list
-pip install pillow
-pip unistall pillow
-pip show pillow
-pip freeze > requirement.txt
-
-
-
-
-'''
-
